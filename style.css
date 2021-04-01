@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.header {
+    background-color: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #B57474 45.66%);
+}
+
+
+
+.navbar {
+    padding: 33px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-info {
+    display: flex;
+    align-items: center;
+}
+
+.nav-info-covid {
+    margin-left: 14px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #035755;
+}
+
+.nav-link {
+    margin: 0px 15px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #035755;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.contact-link {
+    border: 2px solid #FB4C47;
+    box-sizing: border-box;
+    border-radius: 46px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF383D;
+    padding: 8px 16px;
+    transition: 0.4s;
+}
+
+.contact-link:hover {
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+.overwiew-link {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FB4C47;
+}
+
+.nav-title {
+    position: relative;
+}
+
+.ellips-img {
+    position: absolute;
+    right: 550px;
+    top: 30px;
+}
+
+
+
+.header-paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info {
+    width: 55%;
+}
+
+.header-info-covid {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 122%;
+    color: #FA5652;
+    margin-bottom: 30px;
+}
+
+.header-info-home {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #0C6C44;
+    margin-bottom: 30px;
+}
+
+.header-info-text {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-bottom: 30px;
+}
+
+.header-info-link {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #FB4C47;
+    box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+    border-radius: 65px;
+    text-decoration: none;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+
+.header-info-link:hover {
+    background-color: rgb(226, 68, 68);
+    box-shadow: 0 0 10px;
+}
+
+
+.header-photos {
+    width: 70%;
+}
+
+
+.header-paragraph {
+    padding: 50px 0;
+}
+
+.section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-images {
+    width: 55%;
+}
+
+.section-info {
+    width: 45%;
+    position: relative;
+}
+
+.koronavirus-image {
+    position: absolute;
+    top: 420px;
+    left: 520px;
+}
+
+.section-covid {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    color: #FA5652;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    color: #0C6C44;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 165%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-bottom: 20px;
+}
+
+.section-link {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FA5652;
+    background: rgba(250, 86, 82, 0.15);
+    border-radius: 65px;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.section-link:hover {
+    background-color: rgb(228, 104, 93);
+    color: #FFFFFF;
+}
+
+.section-content-info {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 220px;
+}
+
+.section-content-covid {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 104%;
+    color: #FA5652;
+    margin-bottom: 20px;
+}
+
+.section-contagion {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    color: #0C6C44;
+    margin-bottom: 20px;
+}
+
+.section-content-text {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 215%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-bottom: 20px;
+}
+
+.section-content-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.coronavirus-img {
+    position: absolute;
+    top: 520px;
+    right: 1100px;
+}
+
+.section-content-item {
+    width: 27%;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.section-content-item:hover {
+    box-shadow: 0 0 10px;
+}
+
+.item-content-info {
+    font-family: Gelion;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 117%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 20px;
+}
+
+.content-item-text {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 165%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-top: 20px;
+}
+
+.content-item-img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main .container{
+    margin-top:120px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.main-covid {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    text-align: center;
+    color: #FA5652;
+}
+
+.main-title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    text-align: center;
+    color: #035755;
+    margin-top:20px;
+}
+
+.main-text{
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 215%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
